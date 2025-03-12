@@ -1,0 +1,100 @@
+html{margin: 0; padding: 0; height: 100%;  scroll-behavior: smooth;}
+body{margin: 0; padding: 0; height: 100%; font-family: 'filson-pro', Helvetica, Arial, sans-serif; line-height: 1.4;}
+*{font-weight: normal; }
+
+.osano-cm-widget{ transform: scale(75%)}
+
+.container{max-width: 1600px; margin: 0 auto; padding: 80px 50px;}
+  
+h1{ color: var(--purple800); font-size: 48px;  line-height: 1.2;}
+h2{color: var(--purple800);  margin: 0 0 40px 0;}
+h3{color: var(--purple800); font-weight: normal;}
+h4{color: var(--purple800);}
+h5{color: var(--purple800)}
+h6{color: var(--purple800)}
+p{color: var(--black); margin-top: 0; line-height: 1.5;}
+    :root {
+      --white: #fff;
+      --primary: #304E68;
+      --secondary: #FA5D3A;
+      --black: #2e2e37;
+      --shadow: 0px 6px 0px rgba(0, 0, 0, 0.04);
+      --shadow-dark: 0px 6px 0px rgba(0, 0, 0, 0.1);
+      --shadow-small: 0px 4px 0px rgba(0, 0, 0, 0.04);
+    }
+   a{color: var(--primary) !important;} 
+   
+
+a:hover{cursor: pointer; text-decoration: underline !important;}
+    a.textLink {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .white{filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);}
+  
+
+/*-----FONTS-------*/
+
+
+
+/*-----Header and Nav -------*/    
+#header{ position: fixed; width: 100%; z-index: 9999; transition: .6s}
+html:not([data-scroll='0']) #header {background: rgb(6,38,62);
+  background: linear-gradient(149deg, rgba(6,38,62,1) 0%, rgba(8,59,72,1) 100%);}
+#header .container{padding: 18px 50px 18px;}
+#header .logoColumn{width: 39%; display: inline-block;vertical-align: middle;}
+#header .logo{width: 180px; display: block; margin-top: 1px;vertical-align: middle; cursor: pointer;z-index: 99; position: relative;
+}
+#header .buttons{width: 59%; display: inline-block;text-align: right;vertical-align: middle;}
+#header .buttons a{margin: 0px; display: inline-block; height: 45px; vertical-align: middle;z-index: 99; position: relative; top: 6px; font-size: 16px; }
+#header .buttons img{height: 42px;vertical-align: middle; display: inline-block;    }
+#header a{color: white !important; text-decoration: none;}
+
+
+#footer{background: rgb(6,38,62);
+  background: linear-gradient(149deg, rgba(6,38,62,1) 0%, rgba(8,59,72,1) 100%);}
+#footer .container{; background: url(../images/made-in-sf.html)  88% bottom no-repeat; background-size: 150px; padding: 40px 50px 0 50px}
+#footer .logo{width: 100px; display: block; margin: 0px 0 25px 0; }
+#footer .social img{display: inline-block; width: 20px; height: 20px; margin: 0 16px 0 0 ;}
+#footer .col{width: 28%; display: inline-block; vertical-align: top; padding-bottom: 25px; text-align: left; }
+.legal {color: #fff; font-size: 11px; padding: 0px 0 30px 0 }
+.legal a{color: #fff !important; font-size: 11px;}
+
+
+@media screen and (max-width: 960px) {
+  #header .logo{width: 140px;}
+  #header .buttons img{height: 30px;}
+  #header .container{padding: 10px 30px ;}
+
+ #footer .logo{margin: 0 auto 30px auto;}
+#footer .container{ background-position: bottom center; padding: 30px;text-align: center;}
+#footer .col{width: 100%; text-align: center;}
+.legal{padding: 0 0 20px 0}
+}
+
+
+/*-----404, Desktop landingpage -------*/    
+.systemMsg{text-align: center !important; width: 100%; m  }
+.systemMsg .image{width: 150px; margin: 0 auto 50px; display: block; border-radius: 90px;}
+.systemMsg h2{margin-bottom: 24px;}
+.systemMsg .button{height: 55px; margin-top: 20px;}
+#desktop .wrapper .container{align-items: center; justify-content: center;display: flex; height: 100%;min-height: 600px;}
+
+
+@media (max-width: 960px) {
+#header .container{padding-left: 20px; padding-right: 20px}
+  h1{font-size: 28px;}
+  h2{font-size: 18px;}
+  h3{font-size: 16px; margin-top: 32px;}
+  h4{font-size: 14px;}
+  p{font-size: 16px;}
+  #header .buttons a{ margin-top: 10px;}
+  
+}
+
+
+
+
+  
+
