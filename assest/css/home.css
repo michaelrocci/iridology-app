@@ -4,8 +4,8 @@
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;*/
-    background: rgb(200, 220, 255); /* Darker blue shade */
-    background: linear-gradient(191deg, rgba(180, 210, 255, 1) 0%, rgba(100, 140, 220, 1) 100%);
+    background: rgb(25, 90, 230); /* Darker, vibrant blue */
+    background: linear-gradient(191deg, rgba(30, 100, 240, 1) 0%, rgba(15, 70, 190, 1) 100%);
     text-align: left;
     padding: 80px 0 20px;
     margin: 0 auto;
