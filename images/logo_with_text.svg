@@ -10,7 +10,7 @@
 	</style>
 	<path fill-rule="evenodd" class="s0" d="m36.8 17.5l7.9-1.8-1.4-5.8-7.8 1.7c-6.7 1.5-11.5 7.5-11.5 14.4 0 6.9 4.8 12.9 11.5 14.4l7.8 1.7 1.4-5.8-7.9-1.8c-4-0.9-6.8-4.4-6.8-8.5 0-4.1 2.8-7.6 6.8-8.5z"/>
 	<use id="logo" href="#img1" transform="matrix(.06,0,0,.06,3,0)"/>
-	<text id="IRIS HEALTH" style="transform: matrix(1,0,0,1,60.051,32.934)" >
+	<text id="IRIS HEALTH" style="transform: matrix(1,0,0,1,64.051,32.934)" >
 		<tspan x="0" y="0" class="t1">IRIS HEALTH
 </tspan>
 	</text>
