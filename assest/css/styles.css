@@ -53,8 +53,8 @@ html:not([data-scroll='0']) #header {
 #header a{color: white !important; text-decoration: none;}
 
 
-#footer{background: rgb(6,38,62);
-  background: linear-gradient(149deg, rgba(6,38,62,1) 0%, rgba(8,59,72,1) 100%);}
+#footer {
+    background: linear-gradient(149deg, rgb(20, 143, 209) 0%, rgb(10, 100, 180) 100%);}
 #footer .container{; background: url(../images/made-in-sf.html)  88% bottom no-repeat; background-size: 150px; padding: 40px 50px 0 50px}
 #footer .logo{width: 100px; display: block; margin: 0px 0 25px 0; }
 #footer .social img{display: inline-block; width: 20px; height: 20px; margin: 0 16px 0 0 ;}
