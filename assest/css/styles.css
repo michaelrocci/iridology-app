@@ -40,8 +40,9 @@ a:hover{cursor: pointer; text-decoration: underline !important;}
 
 /*-----Header and Nav -------*/    
 #header{ position: fixed; width: 100%; z-index: 9999; transition: .6s}
-html:not([data-scroll='0']) #header {background: rgb(20,143,209);
-  background: linear-gradient(149deg, rgba(6,38,62,1) 0%, rgba(8,59,72,1) 100%);}
+html:not([data-scroll='0']) #header {
+    background: linear-gradient(149deg, rgb(20, 143, 209) 0%, rgb(10, 100, 180) 100%);
+}
 #header .container{padding: 18px 50px 18px;}
 #header .logoColumn{width: 39%; display: inline-block;vertical-align: middle;}
 #header .logo{width: 180px; display: block; margin-top: 1px;vertical-align: middle; cursor: pointer;z-index: 99; position: relative;
